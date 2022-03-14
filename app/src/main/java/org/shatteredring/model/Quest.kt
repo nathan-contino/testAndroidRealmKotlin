@@ -6,7 +6,7 @@ import java.util.*
 
 class Quest: RealmObject {
     @PrimaryKey
-    val _id = UUID.randomUUID()
+    var _id: Long = Random().nextLong()
     var name: String = ""
     var isComplete: Boolean = false
     var notes: String = ""

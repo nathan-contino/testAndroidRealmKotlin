@@ -8,7 +8,7 @@ import java.util.*
 
 class Game: RealmObject {
     @PrimaryKey
-    var _id: UUID = UUID.randomUUID()
+    var _id: Long = Random().nextLong()
     var name: String = ""
     var isActive: Boolean = false
     var npcs: RealmList<NPC> = realmListOf()

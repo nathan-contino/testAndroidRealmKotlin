@@ -8,7 +8,7 @@ import java.util.*
 
 class NPC: RealmObject {
     @PrimaryKey
-    val _id = UUID.randomUUID()
+    var _id: Long = Random().nextLong()
     var name: String = ""
     var isMerchant: Boolean = false
     var locations: RealmList<Location> = realmListOf()
