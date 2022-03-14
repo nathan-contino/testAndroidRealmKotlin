@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ShatteredRing" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#f37320</item>
+        <item name="colorPrimaryVariant">#dd4814</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#300A24</item>
+        <item name="colorSecondaryVariant">#411B35</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ShatteredRing.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ShatteredRing.AppBarOverlay" parent="Theme.MaterialComponents.DayNight" />
+
+    <style name="Theme.ShatteredRing.PopupOverlay" parent="Theme.MaterialComponents.DayNight" />
+</resources>

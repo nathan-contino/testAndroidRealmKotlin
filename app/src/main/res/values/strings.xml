@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShatteredRing</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Game Title</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_change_game">Change Game</string>
+    <string name="action_toggle_dark_light">Light/Night</string>
+
+    <string name="menu_npcs">NPCs</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_quests">Quests</string>
+</resources>

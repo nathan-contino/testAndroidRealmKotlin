@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_change_game"
+        android:orderInCategory="100"
+        android:title="@string/action_change_game"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toggle_dark_light"
+        android:orderInCategory="100"
+        android:title="@string/action_toggle_dark_light"
+        app:showAsAction="never" />
+</menu>
