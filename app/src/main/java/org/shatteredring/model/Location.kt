@@ -1,11 +1,11 @@
 package org.shatteredring.model
 
-//import io.realm.RealmObject
-//import io.realm.annotations.PrimaryKey
+import io.realm.RealmObject
+import io.realm.annotations.PrimaryKey
 import java.util.*
 
-class Location/* : RealmObject*/ {
-    //@PrimaryKey
+class Location : RealmObject {
+    @PrimaryKey
     var _id: UUID = UUID.randomUUID()
     var name: String = ""
     var isCleared: Boolean = false

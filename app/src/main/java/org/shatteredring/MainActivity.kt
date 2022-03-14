@@ -18,8 +18,13 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
+import io.realm.Realm
+import io.realm.RealmConfiguration
 import org.shatteredring.databinding.ActivityMainBinding
 import org.shatteredring.model.Game
+import org.shatteredring.model.Location
+import org.shatteredring.model.NPC
+import org.shatteredring.model.Quest
 
 class MainActivity : AppCompatActivity() {
 
@@ -61,12 +66,12 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
 
-        /*val realm: Realm = Realm.open(RealmConfiguration.with(setOf(Game::class, Quest::class, Location::class, NPC::class)))
+        val realm: Realm = Realm.open(RealmConfiguration.with(setOf(Game::class, Quest::class, Location::class, NPC::class)))
         realm.writeBlocking {
             this.copyToRealm(Game().apply {
                 name = "The Game"
             })
-        }*/
+        }
 
     }
 
